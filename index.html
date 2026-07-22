@@ -1,1 +1,339 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geographica - Gizlilik Politikası ve Şartlar</title>
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-bottom: 24px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            font-size: 28px;
+            margin-bottom: 16px;
+        }
+
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        p, li {
+            font-size: 15px;
+            color: #555;
+            margin-bottom: 8px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        li { margin-bottom: 4px; }
+
+        .badge {
+            display: inline-block;
+            background: #eaf4fb;
+            color: #2980b9;
+            border: 1px solid #b8d9ef;
+            border-radius: 20px;
+            padding: 3px 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-right: 6px;
+            margin-bottom: 6px;
+        }
+
+        .info-box {
+            background: #f0faf5;
+            border-left: 4px solid #27ae60;
+            border-radius: 4px;
+            padding: 14px 18px;
+            margin: 16px 0;
+            font-size: 14px;
+            color: #1e8449;
+        }
+
+        .warn-box {
+            background: #fef9e7;
+            border-left: 4px solid #f1c40f;
+            border-radius: 4px;
+            padding: 14px 18px;
+            margin: 16px 0;
+            font-size: 14px;
+            color: #7d6608;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 0;
+            border-bottom: none;
+        }
+
+        .tab-btn {
+            padding: 10px 22px;
+            border: 2px solid #ddd;
+            border-bottom: none;
+            border-radius: 8px 8px 0 0;
+            background: #f0f0f0;
+            color: #555;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .tab-btn.active {
+            background: #fff;
+            border-color: #3498db;
+            color: #2980b9;
+        }
+
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0;
+            font-size: 14px;
+        }
+
+        th {
+            background: #eaf4fb;
+            color: #2c3e50;
+            padding: 10px 14px;
+            text-align: left;
+            border: 1px solid #d5e8f5;
+        }
+
+        td {
+            padding: 9px 14px;
+            border: 1px solid #e8e8e8;
+            color: #555;
+            vertical-align: top;
+        }
+
+        tr:nth-child(even) td { background: #fafafa; }
+
+        .footer {
+            margin-top: 16px;
+            text-align: center;
+            font-size: 13px;
+            color: #999;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+
+        a { color: #3498db; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        strong { color: #2c3e50; }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <!-- Başlık -->
+    <div class="card" style="text-align:center; padding: 30px;">
+        <h1 style="border:none; font-size:32px;">🌍 Geographica</h1>
+        <p style="font-size:16px; color:#777;">Coğrafi Sözlük — Yasal Belgeler</p>
+        <div style="margin-top:12px;">
+            <span class="badge">Versiyon 1.0</span>
+            <span class="badge">Geçerlilik: 12.07.2026</span>
+        </div>
+    </div>
+
+    <!-- Sekmeler -->
+    <div class="tabs">
+        <button class="tab-btn active" onclick="switchTab('privacy')">🔒 Gizlilik Politikası</button>
+        <button class="tab-btn" onclick="switchTab('terms')">📋 Şartlar ve Koşullar</button>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <!-- GİZLİLİK POLİTİKASI -->
+    <!-- ══════════════════════════════════════════════════════ -->
+    <div id="privacy" class="tab-content active card" style="border-radius: 0 8px 8px 8px;">
+
+        <h1>Gizlilik Politikası</h1>
+        <p>Furkan Davut Demir tarafından işletilen <strong>Geographica – Coğrafi Sözlük</strong> uygulaması, coğrafya ve mekânsal bilimler alanındaki terimleri Türkçe olarak sunan eğitim amaçlı bir mobil uygulamadır. Bu politika, kişisel verilerinize nasıl yaklaştığımızı şeffaf biçimde açıklamaktadır.</p>
+
+        <div class="info-box">
+            ✅ Geographica, hesap oluşturma veya kimlik doğrulama gerektirmez. Kişisel kimlik bilgisi toplamaz.
+        </div>
+
+        <h2>1. Toplanan Veriler ve Amaçları</h2>
+        <p>Uygulama iki farklı kategoride veri işler:</p>
+
+        <p><strong>A) Yalnızca Cihazınızda Saklanan Veriler</strong></p>
+        <table>
+            <tr><th>Veri</th><th>Amaç</th><th>Konum</th></tr>
+            <tr><td>Favori terimler</td><td>Kişisel koleksiyon</td><td>Cihaz (SharedPreferences)</td></tr>
+            <tr><td>Bildirim tercihleri</td><td>Günün Terimi hatırlatması</td><td>Cihaz (SharedPreferences)</td></tr>
+            <tr><td>Widget ayarları</td><td>Ana ekran widget'ı yapılandırması</td><td>Cihaz (SharedPreferences)</td></tr>
+            <tr><td>Tema/görünüm tercihleri</td><td>Arayüz kişiselleştirme</td><td>Cihaz (SharedPreferences)</td></tr>
+        </table>
+        <p>Bu veriler hiçbir sunucuya aktarılmaz.</p>
+
+        <p style="margin-top:16px"><strong>B) Üçüncü Taraf Hizmetleri Aracılığıyla İşlenen Veriler</strong></p>
+        <table>
+            <tr><th>Hizmet</th><th>İşlenen Veri</th><th>Amaç</th></tr>
+            <tr><td>Google AdMob</td><td>Reklam kimliği, cihaz bilgisi, IP adresi</td><td>Reklamların gösterimi</td></tr>
+            <tr><td>Firebase Analytics</td><td>Kullanım istatistikleri, oturum süresi, ekran geçişleri</td><td>Uygulama iyileştirme ve analiz</td></tr>
+            <tr><td>Google Play Hizmetleri</td><td>Cihaz kimliği (donanım düzeyinde)</td><td>Platform altyapısı</td></tr>
+        </table>
+        <p>Bu hizmetler Google LLC tarafından işletilmekte olup kendi gizlilik politikaları kapsamındadır.<br>
+            → <a href="https://policies.google.com/privacy" target="_blank">Google Gizlilik Politikası</a><br>
+            → <a href="https://support.google.com/admob/answer/6128543" target="_blank">AdMob Gizlilik Politikası</a>
+        </p>
+
+        <h2>2. İzinler</h2>
+        <table>
+            <tr><th>İzin</th><th>Kullanım Amacı</th><th>Zorunlu mu?</th></tr>
+            <tr><td>POST_NOTIFICATIONS</td><td>Günün Terimi bildirimi</td><td>Hayır — opsiyonel</td></tr>
+            <tr><td>INTERNET</td><td>Reklam ve analiz verisi iletimi</td><td>Evet</td></tr>
+            <tr><td>RECEIVE_BOOT_COMPLETED</td><td>Yeniden başlatma sonrası bildirimleri kurma</td><td>Evet (bildirim kullanıyorsanız)</td></tr>
+        </table>
+        <div class="info-box">Bildirim iznini vermezseniz uygulama tam işlevselliğiyle çalışmaya devam eder; yalnızca Günün Terimi hatırlatmaları ve ana ekran widget güncellemesi devre dışı kalır.</div>
+
+        <h2>3. Reklamlar (AdMob)</h2>
+        <p>Geographica, Google AdMob aracılığıyla reklam göstermektedir. AdMob; reklam kimliğinizi, cihaz bilgilerinizi ve yaklaşık konumunuzu (IP tabanlı) kullanarak ilgi alanlarınıza uygun reklamlar sunabilir.</p>
+        <p>Kişiselleştirilmiş reklamları devre dışı bırakmak için cihazınızın Ayarlar → Google → Reklamlar bölümünden "Reklam kişiselleştirmeyi devre dışı bırak" seçeneğini kullanabilirsiniz.</p>
+
+        <h2>4. Çocukların Gizliliği</h2>
+        <p>Uygulama her yaştan kullanıcıya yönelik olup bilerek 13 yaşın altındaki çocuklardan kişisel veri toplamayız. Ancak AdMob entegrasyonu nedeniyle <strong>COPPA uyumlu reklam modu</strong> aktif değildir; bu nedenle 13 yaşın altındaki çocukların ebeveyn gözetiminde kullanması önerilir. Böyle bir durumun farkına varırsanız <a href="mailto:demirfurkandavut@gmail.com">demirfurkandavut@gmail.com</a> adresiyle iletişime geçin.</p>
+
+        <h2>5. Haklarınız (KVKK)</h2>
+        <p>Türkiye Kişisel Verilerin Korunması Kanunu (6698 sayılı KVKK) kapsamında şu haklara sahipsiniz:</p>
+        <ul>
+            <li>Kişisel verilerinizin işlenip işlenmediğini öğrenme</li>
+            <li>İşlenmişse buna ilişkin bilgi talep etme</li>
+            <li>Eksik veya yanlış işlenmiş verilerin düzeltilmesini isteme</li>
+            <li>Koşulların oluşması halinde verilerin silinmesini talep etme</li>
+            <li>İşlenen verilerin üçüncü kişilere bildirilmesini isteme</li>
+            <li>İşleme itiraz etme hakkı</li>
+        </ul>
+
+        <h2>6. Güvenlik</h2>
+        <p>Cihaz üzerindeki veriler Android'in uygulama izolasyon mekanizması ile korunmaktadır. Ağ iletişimi HTTPS/TLS üzerinden gerçekleşmektedir. Harici sunucu yok, veri tabanımız yok — tüm yerel veriler yalnızca cihazınızda kalır.</p>
+
+        <h2>7. Politika Değişiklikleri</h2>
+        <p>Bu politika periyodik olarak güncellenebilir. Önemli değişikliklerde bu sayfadaki "Geçerlilik Tarihi" güncellenecektir. Uygulamayı kullanmaya devam etmeniz güncel politikayı kabul ettiğiniz anlamına gelir.</p>
+
+        <p style="margin-top:20px"><strong>Geçerlilik Tarihi:</strong> 12.07.2026 &nbsp;|&nbsp; <strong>İletişim:</strong> <a href="mailto:demirfurkandavut@gmail.com">demirfurkandavut@gmail.com</a></p>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <!-- ŞARTLAR VE KOŞULLAR -->
+    <!-- ══════════════════════════════════════════════════════ -->
+    <div id="terms" class="tab-content card" style="border-radius: 0 8px 8px 8px;">
+
+        <h1>Şartlar ve Koşullar</h1>
+        <p>Bu hüküm ve koşullar, Furkan Davut Demir ("Hizmet Sağlayıcı") tarafından işletilen <strong>Geographica – Coğrafi Sözlük</strong> mobil uygulaması için geçerlidir. Uygulamayı indirerek veya kullanarak bu şartları kabul etmiş sayılırsınız.</p>
+
+        <h2>1. Kullanım Lisansı</h2>
+        <p>Bu şartlara uymanız koşuluyla, Hizmet Sağlayıcı size Uygulamayı kişisel veya kurumsal iç amaçlar için kullanma konusunda sınırlı, münhasır olmayan, devredilemez ve geri alınabilir bir lisans vermektedir. Şunlar kesinlikle yasaktır:</p>
+        <ul>
+            <li>Uygulamayı kopyalamak, dağıtmak veya değiştirmek</li>
+            <li>Tersine mühendislik yapmak veya kaynak kodu çıkarmaya çalışmak</li>
+            <li>Türev çalışmalar oluşturmak</li>
+            <li>Telif hakkı, ticari marka veya diğer tescilli bildirimleri kaldırmak</li>
+        </ul>
+
+        <h2>2. Fikri Mülkiyet</h2>
+        <p>Hizmet Sağlayıcı, Uygulama üzerindeki tüm fikri mülkiyet haklarını (kod, tasarım, ticari markalar, logolar ve marka kimliği dahil) saklı tutar. Bu şartlar size herhangi bir marka veya ticari kimlik kullanım hakkı vermez.</p>
+
+        <h2>3. Üçüncü Taraf Hizmetleri</h2>
+        <p>Geographica aşağıdaki üçüncü taraf hizmetleri kullanmaktadır:</p>
+        <ul>
+            <li><a href="https://policies.google.com/privacy" target="_blank">Google Play Hizmetleri</a></li>
+            <li><a href="https://support.google.com/admob/answer/6128543" target="_blank">Google AdMob</a></li>
+            <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Analytics (Google LLC)</a></li>
+        </ul>
+        <p>Bu hizmetler kendi kullanım şartları ve gizlilik politikalarına tabidir; Hizmet Sağlayıcı bu hizmetlerin veri işleme pratiklerinden sorumlu değildir.</p>
+
+        <h2>4. Bildirimler ve Widget</h2>
+        <p>Uygulama, kullanıcı tercihine bağlı olarak yerel bildirimler ve ana ekran widget'ı sunmaktadır. Bu özellikler tamamen opsiyoneldir; devre dışı bırakılması durumunda uygulamanın temel işlevselliği etkilenmez.</p>
+
+        <h2>5. Ağ Bağlantısı ve Ücretler</h2>
+        <p>Uygulamanın belirli özellikleri (reklamlar, analitik) aktif internet bağlantısı gerektirebilir. Wi-Fi dışında kullanımda mobil veri ücretleri söz konusu olabilir; bu ücretlerden kullanıcı sorumludur. Veri dolaşımı ücretleri de dahil olmak üzere tüm veri kullanım masrafları kullanıcıya aittir.</p>
+
+        <h2>6. Hizmet Sağlayıcı Sorumlulukları</h2>
+        <p>Hizmet Sağlayıcı, uygulamayı mümkün olduğunca doğru ve güncel tutmaya çalışmaktadır; ancak şunları garanti etmez:</p>
+        <ul>
+            <li>Uygulamanın kesintisiz veya hatasız çalışacağı</li>
+            <li>Uygulama içeriğinin eksiksiz veya hatasız olduğu (coğrafya terimleri ansiklopedik değil eğitim amaçlıdır)</li>
+            <li>Belirli işletim sistemi sürümleriyle uyumluluğun sürdürüleceği</li>
+        </ul>
+        <div class="warn-box">⚠️ Cihazınızın jailbreak veya root işlemine tabi tutulması uygulamanın güvenliğini tehlikeye atabilir ve doğru çalışmamasına neden olabilir. Hizmet Sağlayıcı bu tür işlemleri önermez.</div>
+
+        <h2>7. Sorumluluğun Sınırlandırılması</h2>
+        <p>Yasaların izin verdiği en geniş ölçüde Hizmet Sağlayıcı; kar kaybı, veri kaybı veya iş kesintisi dahil dolaylı, arızi, özel veya sonuçsal zararlardan sorumlu tutulamaz. Aşağıdaki hususlarda tam sorumluluk saklıdır:</p>
+        <ul>
+            <li>İhmal sonucu ölüm veya kişisel yaralanma</li>
+            <li>Dolandırıcılık veya hileli yanlış beyan</li>
+            <li>Yürürlükteki yasa uyarınca sınırlandırılamayan diğer yükümlülükler</li>
+        </ul>
+
+        <h2>8. Fesih</h2>
+        <p>Hizmet Sağlayıcı, bu şartları esaslı biçimde ihlal etmeniz halinde Uygulamaya erişiminizi askıya alabilir veya sonlandırabilir. Yasalara aykırı eylemler, fikri mülkiyet ihlalleri ve diğer kullanıcılara zarar verecek faaliyetlerde önceden bildirim yapılmaksızın erişim sonlandırılabilir. Fesih durumunda uygulamayı kullanma hakkınız sona erer ve cihazdaki tüm kopyaları silmeniz gerekir.</p>
+
+        <h2>9. Güncellemeler ve Hizmetin Sona Ermesi</h2>
+        <p>Hizmet Sağlayıcı, uygulamayı güncelleme yükümlülüğü altında değildir ve uygulamayı herhangi bir zamanda hizmet dışı bırakabilir. İşletim sistemi güncellemeleri uygulamanın uyumluluğunu etkileyebilir; bu durumlarda Hizmet Sağlayıcı sorumluluk kabul etmez.</p>
+
+        <h2>10. Uygulanacak Hukuk</h2>
+        <p>Bu şartlar, zorunlu tüketici koruma yasaları aksini öngörmedikçe Türkiye Cumhuriyeti hukuku kapsamında değerlendirilir. Uyuşmazlıklar yetkili Türk mahkemelerinde görülür.</p>
+
+        <h2>11. Bölünebilirlik ve Tüm Anlaşma</h2>
+        <p>Herhangi bir hükmün geçersiz veya uygulanamaz bulunması halinde söz konusu hüküm minimum ölçüde değiştirilir; geri kalan hükümler yürürlükte kalır. Bu şartlar ve Gizlilik Politikası, sizinle Hizmet Sağlayıcı arasındaki tüm anlaşmayı oluşturur.</p>
+
+        <h2>12. Değişiklikler</h2>
+        <p>Hizmet Sağlayıcı bu şartları periyodik olarak güncelleyebilir. Güncel sürüm bu sayfada yayımlanır; önceki sürümler talep üzerine temin edilebilir. Uygulamayı kullanmaya devam etmeniz güncel şartları kabul ettiğiniz anlamına gelir.</p>
+
+        <h2>13. İletişim</h2>
+        <p>Şartlar ve Koşullar hakkında soru veya önerileriniz için: <a href="mailto:demirfurkandavut@gmail.com">demirfurkandavut@gmail.com</a></p>
+
+        <p style="margin-top:20px"><strong>Geçerlilik Tarihi:</strong> 12.07.2026</p>
+    </div>
+
+    <div class="footer">
+        &copy; 2026 Geographica – Coğrafi Sözlük &middot; Furkan Davut Demir
+    </div>
+</div>
+
+<script>
+    function switchTab(tab) {
+        document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+        document.getElementById(tab).classList.add('active');
+        event.target.classList.add('active');
+    }
+</script>
+</body>
+</html>
