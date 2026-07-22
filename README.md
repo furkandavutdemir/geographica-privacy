@@ -1,2 +1,0 @@
-# geographica-privacy
-geographica-privacy
